@@ -1,0 +1,16 @@
+
+pop() always removes the last element of an array. What if you want to remove the first?
+That's where .shift() comes in.
+
+Take the myArray array and shift() the first value off of it. Set myRemoved to the first value of myArray using shift().
+
+Example: 
+
+var ourArray = ["Stimpson", "J", ["cat"]];
+ourRemoved = ourArray.shift();
+// ourArray now equals ["J", ["cat"]].
+
+var myArray = ["John", 23, ["dog", 3]];
+// Only change code below this line.
+
+var myRemoved = myArray.shift(); // This should be ["John"] and myArray should now be [23, ["dog", 3]].

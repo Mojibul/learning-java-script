@@ -1,0 +1,17 @@
+Now that we've learned how to shiftthings from the start of the array, we need to learn how to unshiftstuff back to the start.
+
+Let's take the code we had last time and unshiftthis value to the start: "Paul".
+
+Example: 
+
+var ourArray = ["Stimpson", "J", ["cat"]];
+ourArray.shift();
+// ourArray now equals ["happy", "J", ["cat"]]
+ourArray.unshift("happy");
+
+var myArray = ["John", 23, ["dog", 3]];
+myArray.shift();
+
+// Add "Paul" to the start of myArray.
+// Only change code below this line.
+myArray.unshift("Paul");

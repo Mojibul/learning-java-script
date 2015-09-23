@@ -1,0 +1,15 @@
+Non only can you pop() data off of the end of an array, you can also push() 
+data onto the end of an array.
+
+Take the myArray array and push() this value to the end of it: ["dog",3].
+
+
+Example:
+
+ var ourArray  = ["Stimpson","J",["cat"]];
+ ourArray.pop();
+ ourArray.push(["happy","joy"]);
+
+ var myArray = ["John",23,["cat",21]];
+ myArray.pop();
+ myArray.push(["dog",3]); // ourArray now equals ["John",23,["cat",21]]

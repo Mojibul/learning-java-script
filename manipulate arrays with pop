@@ -1,0 +1,15 @@
+Another way to change the data in an array is with the .pop() function.
+
+.pop() is used to "pop" a value off of the end of an array. We can retrives this 
+value by performing pop() in a variable declaration.
+
+Any type of variable can be "popped" of an array.
+
+
+Example: 
+
+var myArray = ["Jaman",23,["Dog",3]];
+var removed = myArray.pop()// This should be ["Dog",3] and myArray should now be ["Jaman",23]
+
+
+Use the .pop() function to remove the last item form myArray

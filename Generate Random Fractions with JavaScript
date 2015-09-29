@@ -1,0 +1,16 @@
+Random numbers are useful for creating random behavior.
+
+JavaScript has a Math.random() function that generates a random decimal number.
+
+Use Math.random() to get myFunction to return a random number.
+
+Example: 
+
+function myFunction() {
+  // Change the 0 to Math.random().
+  // Only change code below this line.
+
+  return Math.random();
+
+  // Only change code above this line.
+}

@@ -1,0 +1,19 @@
+array = array.map(function(val){
+
+  return val+1;
+
+});
+
+The map method is one of the easiest ways to iterate through an array or object there is. Let's use it now.
+
+Use the map function to add 3 to every value in the variable array
+
+Example: 
+
+//Use map to add three to each value in the array
+var array = [1,2,3,4,5];
+// Only change code below this line.
+array = array.map(function(val){
+  return val+3;
+});
+

@@ -1,0 +1,27 @@
+
+There are many ways to add and remove properties from objects.
+
+For example, we can add properties to objects like this:
+
+myObject.myProperty = "myValue";
+
+We can also delete them like this:
+
+delete myObject.myProperty;
+
+Let's add the property "bark", and delete the property "tails".
+
+Example: 
+
+var myDog = {
+   "name": "Camper",
+   "legs": 4,
+   "tails": 1,
+   "friends": []
+};
+
+// Only change code below this line.
+
+// Let's add the property bark to myDog
+myDog.bark = 1;
+delete myDog.tails;
